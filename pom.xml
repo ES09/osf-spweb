@@ -8,7 +8,7 @@
     <properties>
 
 		<!-- Generic properties -->
-		<finalName>osf</finalName>
+		<finalName>osft</finalName>
 		<maven.compiler.target>1.6</maven.compiler.target>
 		<maven.compiler.source>1.6</maven.compiler.source>
 		<java.version>1.6</java.version>
@@ -109,6 +109,14 @@
 			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+		    <groupId>org.projectlombok</groupId>
+		    <artifactId>lombok</artifactId>
+		    <version>1.16.20</version>
+		    <scope>provided</scope>
+		</dependency>
+		
 
 	</dependencies>	
 </project>
