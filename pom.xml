@@ -22,7 +22,7 @@
 		
 
 		<!-- Spring -->
-		<spring-framework.version>3.2.5.RELEASE</spring-framework.version>
+		<spring-framework.version>3.2.6.RELEASE</spring-framework.version>
 
 		<!-- Hibernate / JPA -->
 		<hibernate.version>4.2.1.Final</hibernate.version>
@@ -120,7 +120,7 @@
 		<dependency>
 		    <groupId>org.mybatis</groupId>
 		    <artifactId>mybatis</artifactId>
-		    <version>3.4.1</version>
+		    <version>3.4.2</version>
 		</dependency>
 		
 		<dependency>
@@ -138,7 +138,7 @@
 		<dependency>
 		    <groupId>org.springframework</groupId>
 		    <artifactId>spring-jdbc</artifactId>
-		    <version>3.2.5.RELEASE</version>
+		    <version>3.2.6.RELEASE</version>
 		</dependency>
 		
 
