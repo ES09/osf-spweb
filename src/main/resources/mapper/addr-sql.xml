@@ -14,4 +14,7 @@
 			</if>
 		</where>		
 	</select>
+	<select id="selectEmpById" resultType="map">
+		select * from emp where id=#{id}
+	</select>
 </mapper>

@@ -4,15 +4,6 @@
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="customer">
 	
-	<resultMap type="com.osf.web.vo.CustomerInfo" id="ci">
-		<id property="ciNum" column="ci_num"/>
-		<result property="ciName" column="ci_name"/>
-	</resultMap>
-	
-	<select id="selectCustomerInfoList" resultMap="map">
-		select * from customer_info		
-	</select>
-	
 	<select id="selectCustomerInfo" resultType="map">
 		select * from customer_info where ci_num=#{ciNum}			
 	</select>
